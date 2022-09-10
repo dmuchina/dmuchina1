@@ -4,19 +4,107 @@
 <title>This is my index page</title>
 
 </head>
-<body background="">
-    <h1><i><center>This is my menu page-David Muchina Ndegwa</i></center></h1>
-    <h1><center>SOFTWARE ENGINEERING COHORT 4-SAFARICOM</center></h1>
-    <br></br> 
-    <hr>
-    <div id = "content" align = "center" >
-         <h2>Click the link below to access the My site</h2>
-        </div>
-<div id = "menu" align = "middle" >
-    <p><a href="firstproject.html">Html Basics </a></p>
-    <p><a href="styling.html">Html Styles </a></p>
-    <p><a href="myportfolio.html">My Portfolio </a></p> 
-</div>
-<hr>
+<body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Style the header */
+    header {
+      background-color: #666;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+    
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 30%;
+      height: 300px; /* only for demonstration, should be removed */
+      background: #ccc;
+      padding: 20px;
+    }
+    
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+      height: 300px; /* only for demonstration, should be removed */
+    }
+    
+    /* Clear floats after the columns */
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Style the footer */
+    footer {
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+    
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>DAVID MUCHINA NDEGWA</h2>
+    <p>This is my website.</p>
+    <p>Check below links to find more about me.</p>
+    
+    <header>
+      <h2>My Profile</h2>
+    </header>
+    
+    <section>
+      <nav>
+        <ul>
+          <li><a href="firstproject.html">HTML Basics</a></li>
+          <li><a href="styling.html">HTML STYLES</a></li>
+          <li><a href="myportfolio.html">MY Portfolio</a></li>
+        </ul>
+      </nav>
+      
+      <article>
+        <h1>About me</h1>
+        <p>David is a jovial happy boy, I love exploring new things in life, am glad to create my first html assignment page.
+            I have a background in computer Studies, I did my first web coding in the year 2005 then disappeared.
+            I have worked in Safaricom for the last eleven years. I decided to take software engineering course
+            Just to update myself with the latest coding trends.
+            My current interest is to learn something new that will help my mind juggle technologically
+            And soon am seeing myself cresting web page applications, I love watching documentaries, am also a football fan.
+            .</p>
+      </article>
+    </section>
+    
+    <footer>
+      <p><i>copyright@dmuchinasoftwareinc</i></p>
+    </footer>
 </body>
 </html>
