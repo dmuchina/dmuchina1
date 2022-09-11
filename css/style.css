@@ -1,89 +1,60 @@
-body{
+body {
+  background-color: rgb(12, 83, 50);
 
-    background-color: rgb(12, 83, 50);
-
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.content-wrapper{
-
-    padding: 10px 30px;
-
+.content-wrapper {
+  padding: 10px 30px;
 }
 
-p{
-
-    text-align: justify;
-
+p {
+  text-align: justify;
 }
 
-h1{
-
-    text-align: center;
-
+h1 {
+  text-align: center;
 }
 
-.highlight{
+.highlight {
+  font-weight: 700;
 
-    font-weight: 700;
-
-    color: forestgreen;
-
+  color: forestgreen;
 }
 
-h1, h2{
-
-    font-weight: 400;
-
+h1,
+h2 {
+  font-weight: 400;
 }
 
+ul li {
+  list-style-type: square;
 
+  margin-bottom: 10px;
 
-ul li{
-
-    list-style-type: square;
-
-    margin-bottom: 10px;
-
-    margin-left: 50px;
-
+  margin-left: 50px;
 }
 
 /* unvisited link */
 
 a:link {
-
-    color: rgb(11, 13, 12);
-
+  color: rgb(11, 13, 12);
 }
-
-
 
 /* visited link */
 
 a:visited {
-
-    color: green;
-
+  color: green;
 }
-
-
 
 /* mouse over link */
 
 a:hover {
-
-    color: rgb(105, 255, 143);
-
+  color: rgb(105, 255, 143);
 }
-
-
 
 /* selected link */
 
 a:active {
-
-    color: blue;
-
+  color: blue;
 }
